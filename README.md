@@ -11,9 +11,9 @@ Có thể đọc chi tiết tại: [wikipedia](https://vi.wikipedia.org/wiki/L�
 **Class** được xem như là bản thiết kế```(blueprint)``` hoặc có thể xem là khuôn mẫu```(prototype)``` từ đó tạo ra các **đối tượng(Object)**, là tập hợp các **đối tượng(Object)** có cùng phương thức và thuộc tính.
 
 **Object** là **thực thể(entity)** mang tính vật lý cũng như mang tính logic. Mỗi **đối tượng(Object)** bao gồm:
-	- **State(Trạng thái)**: Nó được đại diện bởi các **thuộc tính(attributes)** của một đối tượng(Object).
-	- **Behavior(Hành vi)**: Nó được đại diện bởi các **phương thức(method)** của một đối tượng(Object).
-	- **Identity(Danh tính)**: Nó đưa ra một tên duy nhất cho một đối tượng(Object) và cho phép một đối tượng(Object) tương tác với các đối tượng(Object) khác.
+- **State(Trạng thái)**: Nó được đại diện bởi các **thuộc tính(attributes)** của một đối tượng(Object).
+- **Behavior(Hành vi)**: Nó được đại diện bởi các **phương thức(method)** của một đối tượng(Object).
+- **Identity(Danh tính)**: Nó đưa ra một tên duy nhất cho một đối tượng(Object) và cho phép một đối tượng(Object) tương tác với các đối tượng(Object) khác.
 
 Example: Một đối tượng(Object) Dog.
 
