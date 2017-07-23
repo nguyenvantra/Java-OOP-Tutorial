@@ -29,4 +29,10 @@ Example:
 Dog husky = new Dog();
 ``` 
 
+## Các nguyên lý cơ bản trong OOP
+### Abstraction (Tính trừu tượng)
+### Encapsulation (Tính bao đóng)
+### Inheritance (Tính kế thừa)
+### Polymophirsm (Tính đa hình)
+
 
