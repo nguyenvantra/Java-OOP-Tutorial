@@ -33,7 +33,7 @@ Dog husky = new Dog();
 ### Abstraction (Tính trừu tượng)
 ### Encapsulation (Tính bao đóng)
 ### Inheritance (Tính kế thừa)
-Inheritance (Tính kế thừa) là một tính chất quan trọng trong OOP. Nó là cơ chế mà cho phép một class được phép **thừa hưởng** các tính năng **(fields and method)** của một class khác.  Điều này cho phép các object chia sẻ hay mở rộng các đặc tính sẵn có mà không phải tiến hành định nghĩa lại
+Inheritance (Tính kế thừa) là một tính chất quan trọng trong OOP. Nó là cơ chế mà cho phép một class được phép **thừa hưởng** các tính năng **(fields and method)** của một class khác.  Điều này cho phép các object chia sẻ hay mở rộng các đặc tính sẵn có mà không phải tiến hành định nghĩa lại.
 
 Example:
 Ta có class ```Animal``` có 3 attributes là **color, age, weight**
@@ -65,7 +65,7 @@ public class Animal {
 }
 ```
 
-Class ```Dog`` và ```Cat``` sẻ kế thừa class ```Animal``` thông qua từ khoá ```extends```.
+Class ```Dog``` và ```Cat``` sẻ kế thừa class ```Animal``` thông qua từ khoá ```extends```.
 
 ```java 
 public class Dog extends Animal {
@@ -87,7 +87,7 @@ public class Cat extends Animal {
 }
 ```
 
-Class ```Dog`` và ```Cat``` sẻ được thừa hưởng các thuộc tính và phương thức mà ```Animal``` đã khai báo.
+Class ```Dog``` và ```Cat``` sẻ được thừa hưởng các thuộc tính và phương thức mà ```Animal``` đã khai báo.
 
 ```java
 public class Test {
