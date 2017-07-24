@@ -32,6 +32,16 @@ Dog husky = new Dog();
 ## Các nguyên lý cơ bản trong OOP
 ### Abstraction (Tính trừu tượng)
 ### Encapsulation (Tính bao đóng)
+Trước khi tìm hiểu **Encapsulation** là gì. Chúng ta sẻ tìm hiểu sơ qua về **Access Modifier** trong ```java``` 
+
+Access Modifier | Phạm vi truy cập
+------------ | -------------
+```private``` | Chỉ truy cập được từ class khai báo
+```protected``` | Truy cập được từ trong class khai báo, class con của class khai báo và các class cùng gói với class khai báo
+```public``` | Truy cập được từ mọi nơi
+```default``` | Truy cập được từ trong class khai báo và các class cùng gói với class khai báo
+
+
 ### Inheritance (Tính kế thừa)
 Inheritance (Tính kế thừa) là một tính chất quan trọng trong OOP. Nó là cơ chế mà cho phép một class được phép **thừa hưởng** các tính năng **(fields and method)** của một class khác.  Điều này cho phép các object chia sẻ hay mở rộng các đặc tính sẵn có mà không phải tiến hành định nghĩa lại.
 
