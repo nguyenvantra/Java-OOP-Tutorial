@@ -4,10 +4,10 @@ Ba khái niệm này rất quan trọng cần hiểu rõ và hình dung được
 ## Class
 **Class** được xem như là bản thiết kế```(blueprint)``` hoặc có thể xem là khuôn mẫu```(prototype)``` từ đó tạo ra các **object(đối tượng)**, là tập hợp các **object(đối tượng)** có cùng phương thức và thuộc tính.
 
-Example: Tạo một đối tượng ```Animal```.
+Example: Tạo một đối tượng ```Dog```.
 
 ```java
-public class Animal {
+public class Dog {
 
 }
 ```
@@ -18,32 +18,32 @@ public class Animal {
 - **Behavior(Hành vi)**: Những gì đối tượng làm, nó được đại diện bởi các **method(phương thức)** của một object(đối tượng).
 - **Identity(Danh tính)**: Điều gì làm cho chúng trở nên độc nhất và khác biệt, cho phép một object(đối tượng) tương tác với các object(đối tượng) khác.
 
-Example: Một object(đối tượng) Animal.
+Example: Một object(đối tượng) Dog.
 
 State | Behavior | Identity
 ------------ | ------------- | -------------
-age, color, breed | eat, run, sleep | Name of Animal
+age, color, breed | eat, run, sleep | Name of Dog
 
 ```java
-public class Animal {
-	//Thuộc tính của Animal
+public class Dog {
+	// Thuộc tính của Dog
 	String name;
 	int age;
-	
-	//Hành vi của Animal
+
+	// Hành vi của Dog
 	public void eat() {
-	
+		// do something
 	}
-	
-	//Hành vi của Animal
+
+	// Hành vi của Dog
 	public void run() {
-	
+		// do something
 	}
-	
-	//Hành vi của Animal
+
+	// Hành vi của Dog
 	public void sleep() {
-	
-	} 
+		// do something
+	}
 }
 ```
 
@@ -52,14 +52,16 @@ public class Animal {
 
 Example:
 ```java
-public class Animal {
+public class Test {
 	public static void main(String[] args) {
-		//Tạo instance husky từ object Animal
-		Animal husky = new Animal();
+		//Tạo instance husky từ object Dog
+		Dog husky = new Dog();
 		
-		//husky có đầy đủ các giá trị thuộc cụ thể
+		// Husky có đầy đủ các thuộc tính của Dog
 		String name = husky.name;
 		int age = husky.age;
+		
+		// Husky có đầy đủ method của Dog
 		husky.eat();
 		husky.run();
 		husky.sleep();
