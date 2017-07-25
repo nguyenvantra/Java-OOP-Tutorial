@@ -7,7 +7,7 @@ OOP được xem là giúp tăng năng suất, đơn giản hóa độ phức t�
 
 Có thể đọc chi tiết tại: [wikipedia](https://vi.wikipedia.org/wiki/Lập_trình_hướng_đối_tượng)
 
-## Class, Object, Intance
+## Class, Object, Instance
 **Class** được xem như là bản thiết kế```(blueprint)``` hoặc có thể xem là khuôn mẫu```(prototype)``` từ đó tạo ra các **object(đối tượng)**, là tập hợp các **object(đối tượng)** có cùng phương thức và thuộc tính.
 
 **Object** là **entity(thực thể)** mang tính vật lý cũng như mang tính logic. Mỗi **object(đối tượng)** bao gồm:
@@ -41,7 +41,7 @@ Access Modifier | Phạm vi truy cập
 ```public``` | Truy cập được từ mọi nơi
 ```default``` | Truy cập được từ trong class khai báo và các class cùng gói với class khai báo
 
-Encapsulation là *a process of wrapping code and data together into a single unit* có thể hiểu *là quá trình bao đóng, đóng gói code và dữ liệu thành một đơn vị duy nhất*. Một cách hiểu khác là nó giống như một lá chắn bảo vệ để ngăn ngừa dữ liệu bị truy cập bởi mã bên ngoài.
+Encapsulation là **a process of wrapping code and data together into a single unit** có thể hiểu **là quá trình bao đóng, đóng gói code và dữ liệu thành một đơn vị duy nhất**. Một cách hiểu khác là nó giống như một lá chắn bảo vệ để ngăn ngừa dữ liệu bị truy cập bởi mã bên ngoài.
 
 Về mặt kỹ thuật trong **Encapsulation** các variables(biến) hoặc data(dữ liệu) sẻ được bị ẩn đi, các class khác sẻ không nhìn thấy và các class khác chỉ có thể được truy cập thông qua một số function(hàm) mà class đó cung cấp.
 
@@ -101,9 +101,7 @@ public class Test {
 		//Displaying values of the variables
 		System.out.println("Name: "+person.getName()); // NguyenVanTra
 		System.out.println("Age: "+person.getAge()); // 22
-		System.out.println("Sex: "+person.getSex()); // male
-		
-		
+		System.out.println("Sex: "+person.getSex()); // male	
 	}
 }
 ```
@@ -185,7 +183,7 @@ public class Test {
 
 ```
 
-
-### Polymophirsm (Tính đa hình)
+### Polymorphirsm (Tính đa hình)
+Polymorphirsm trong java là một khái niệm mà theo đó chúng ta có thể thực hiện một hành động đơn lẻ bằng nhiều cách khác nhau (**single action by different ways**).
 
 
