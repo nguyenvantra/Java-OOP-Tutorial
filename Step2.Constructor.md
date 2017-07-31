@@ -43,15 +43,7 @@ public class Student {
 	}
 
 	// Parameterized Constructor
-	// Ví dụ đối tượng Student có 2 parameter
-	public Student(String idStudent, String name) {
-		this.idStudent = idStudent;
-		this.name = name;
-	}
-
-	// Đối tượng Student có đầy đủ parameter
 	public Student(String idStudent, String name, int age, String address) {
-		super();
 		this.idStudent = idStudent;
 		this.name = name;
 		this.age = age;
@@ -60,3 +52,42 @@ public class Student {
 
 }
 ``` 
+
+## Constructor Overloading in Java
+Giống như phương thức chúng ta có thể tạo ra nhiều **constructor** từ số lượng **parameter** của class đó, trong Java kỹ thuật này được gọi là **constructor overloading**. Trình biên dịch sẻ phân biệt các **constructor** thông qua sô lượng, loại, thứ tự **parameters**. 
+
+Example:
+```java
+package com.darkness.step2;
+
+public class Student {
+	private String idStudent;
+	private String name;
+	private int age;
+	private String address;
+
+	// No-argument constructor
+	// Nếu class Student không khai báo constructor nào thì mặc địn Java sẻ gọi
+	// No-argument constructor
+	public Student() {
+
+	}
+
+	// Parameterized Constructor
+	// Ví dụ đối tượng Student có 2 parameter
+	public Student(String idStudent, String name) {
+		this.idStudent = idStudent;
+		this.name = name;
+	}
+
+	// Đối tượng Student có đầy đủ parameter
+	public Student(String idStudent, String name, int age, String address) {
+		this.idStudent = idStudent;
+		this.name = name;
+		this.age = age;
+		this.address = address;
+	}
+
+}
+```
+
