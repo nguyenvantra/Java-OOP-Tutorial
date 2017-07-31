@@ -54,7 +54,7 @@ public class Student {
 ``` 
 
 ## Constructor Overloading in Java
-Giống như phương thức chúng ta có thể tạo ra nhiều **constructor** từ số lượng **parameter** của class đó, trong Java kỹ thuật này được gọi là **constructor overloading**. Trình biên dịch sẻ phân biệt các **constructor** thông qua sô lượng, loại, thứ tự **parameters**. 
+Giống như phương thức chúng ta có thể tạo ra nhiều **constructor** từ số lượng **parameter** của class đó, trong Java kỹ thuật này được gọi là **constructor overloading**. Trình biên dịch sẻ phân biệt các **constructor** thông qua s lượng, loại, thứ tự **parameters**. 
 
 Example:
 ```java
@@ -90,4 +90,7 @@ public class Student {
 
 }
 ```
+
+## Code example: 
+[Code example constructor](https://github.com/nguyenvantra/Java-OOP-Tutorial/blob/master/src/com/darkness/step2/Student.java)
 
