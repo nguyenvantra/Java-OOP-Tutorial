@@ -73,3 +73,5 @@ public class Test {
 	}
 }
 ```
+## Code example: 
+[Code example constructor](https://github.com/nguyenvantra/Java-OOP-Tutorial/tree/master/src/com/darkness/step4)
