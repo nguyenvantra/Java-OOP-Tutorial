@@ -87,4 +87,7 @@ public class Test {
 ```
 
 ## Types of inheritance in java
-Trong Java có 3 kiểu kế thừa: **single**, **multilevel** and **hierarchical**. Đa kế thừa chỉ được Java hổ trợ cho **interface**. 
+Trong Java có 3 kiểu kế thừa: **single**, **multilevel** and **hierarchical**. Đa kế thừa chỉ được Java hổ trợ cho **interface**.
+
+## Code example: 
+[Code example constructor](https://github.com/nguyenvantra/Java-OOP-Tutorial/tree/master/src/com/darkness/step3)
